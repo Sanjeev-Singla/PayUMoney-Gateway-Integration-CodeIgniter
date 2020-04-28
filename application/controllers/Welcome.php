@@ -11,11 +11,11 @@ class Welcome extends CI_Controller {
 	public function check()
 	{
 		$amount =  $this->input->post('payble_amount');
-	    $product_info = $this->input->post('product_info');
-	    $customer_name = $this->input->post('customer_name');
-	    $customer_emial = $this->input->post('customer_email');
-	    $customer_mobile = $this->input->post('mobile_number');
-	    $customer_address = $this->input->post('customer_address');
+	    	$product_info = $this->input->post('product_info');
+	    	$customer_name = $this->input->post('customer_name');
+	    	$customer_emial = $this->input->post('customer_email');
+	    	$customer_mobile = $this->input->post('mobile_number');
+	    	$customer_address = $this->input->post('customer_address');
 	    
 	    	//payumoney details
 	    
